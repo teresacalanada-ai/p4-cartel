@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cartel css</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.google.com">
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Rakkas?query=rakkas">
+
+        <style>
+            :root{
+                --primary-color: #328BB3;
+                --secundary-color: #4F97BC;
+                --terciary-color: #E3B786;
+            }
+            
+            
+            body{
+                font-family: 'Rakkas';
+                font-size: 16px;
+                zoom: 90%;
+                background-color: #000000;
+                color:white;
+            }
+
+            .centrar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .centrar-texto{
+                text-align: center;
+            }
+
+            .estilo-lista{
+                list-style: none;
+                padding: 0;
+                font-size: 2em;
+            }
+
+            .estilo-titulo{
+                font-size: 4em;
+            }
+
+            header{
+                background-color:var(--primary-color);
+                margin: 0%;
+                padding: 10px 20px;
+                width: 500px;
+            }
+
+            main{
+                background-color:var(--secundary-color);
+                width: 500px;
+                margin: 0%;
+                padding: 10px 20px;
+            }
+
+            footer{
+                background-color: var(--terciary-color);
+                width: 500px;
+                margin: 0%;
+                padding: 10px 20px;
+            }
+
+        </style>
+
+    </head>
+
+    <body class="centrar">
+        <header class="centrar">
+            <hgroup class="centrar-texto">
+                <h3>
+                    <time datetime="2026-05-29">29</time> 
+                    <time datetime="2026-05-30">y 30 de mayo 2026</time> - Rabasa, C/Játiva
+                </h3>
+                <h1 class="estilo-titulo">Spring Festival</h1>
+                <h2>ALICANTE</h2>
+            </hgroup>
+        </header>
+
+        <main class="centrar">
+            <section class="centrar-texto">
+                <p>
+                    <time datetime="2026-05-29">Viernes 29</time>
+                </p>
+                <ul class="estilo-lista">
+                    <li>Carolina Durante</li>
+                    <li>Siloé</li>
+                    <li>Ginebras</li>
+                    <li>Sexy Zebras</li>
+                    <li>Temples</li>
+                    <li>Xoel López</li>
+                    <li>Ladilla Rusa</li>
+                    <li>Natalia Lacunza</li>
+                    <li>Paula Mattheus</li>
+                </ul>
+            </section>
+
+            <section class="centrar-texto">
+                <p>
+                    <time datetime="2026-05-30">Sábado 30</time>
+                </p>
+                <ul class="estilo-lista">
+                    <li>La M.O.D.A.</li>
+                    <li>Love Of Lesbian</li>
+                    <li>Ultraligera</li>
+                    <li>Dorian</li>
+                    <li>Sanguijuelas del Guadiana</li>
+                    <li>Hens</li>
+                    <li>Malmö 040</li>
+                    <li>Marina Reche</li>
+                    <li>NeoverbeNeo</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="centrar-texto">
+            <p><a href="https://springalicante.es/">www.springalicante.es</a></p>
+            <p><a href="https://alicanteturismo.com/wp-content/uploads/2025/02/spring-festival-2026.jpg">Foto del cartel</a></p>
+        </footer>
+    </body>
+</html>
